@@ -12,27 +12,27 @@ const  TableComponent = React.forwardRef((props, ref) => {
     </thead>
     <tbody>
       <tr key={1}>
-        <td>John</td>
-        <td>Doe</td>
-        <td>john@example.com</td>
+        <td>Mokha</td>
+        <td>Alamgir</td>
+        <td>mokha@gmail.com</td>
         <td>
-          <img src="https://i.pravatar.cc/50?img=1" alt="thumb" />
+          <img src="https://via.placeholder.com/140x100" alt="thumb1" />
         </td>
       </tr>
       <tr key={2}>
-        <td>Mary</td>
-        <td>Moe</td>
-        <td>mary@example.com</td>
+        <td>Tala</td>
+        <td>Hazi</td>
+        <td>thazi@gmail.com</td>
         <td>
-          <img src="https://i.pravatar.cc/50?img=2" alt="thumb" />
+          <img src="https://via.placeholder.com/140x100" alt="thumb2" />
         </td>
       </tr>
       <tr key={3}>
-        <td>July</td>
-        <td>Dooley</td>
-        <td>july@example.com</td>
+        <td>Tareq</td>
+        <td>Vay</td>
+        <td>tareqvay@gmail.com</td>
         <td>
-          <img src="https://i.pravatar.cc/50?img=3" alt="thumb" />
+          <img src="https://via.placeholder.com/140x100" alt="thumb3" />
         </td>
       </tr>
     </tbody>
