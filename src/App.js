@@ -1,23 +1,23 @@
-import logo from './logo.svg';
+
 import './App.css';
 
+import { useRef } from 'react';
+import {useReactToPrint} from 'react-to-print';
+import TableComponent from './components/TableComponent';
+
 function App() {
+  const componentRef = useRef();
+  const handlePrint = useReactToPrint({
+    content: () => componentRef.current
+  });
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+       
+	  <button onClick={handlePrint} className="btn btn-primary">Print to PDF!</button>
+        
+      <TableComponent ref={componentRef} />
+
     </div>
   );
 }
