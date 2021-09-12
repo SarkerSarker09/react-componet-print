@@ -1,9 +1,3 @@
-# Getting Started with Create React App
+# React Component Print
 
 ### `npm start`
-
-### `npm test`
-
-### `npm run build`
-### `npm run eject`
-
